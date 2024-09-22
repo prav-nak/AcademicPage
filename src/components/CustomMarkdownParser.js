@@ -12,6 +12,12 @@ const CustomMarkdownParser = ({ content }) => {
   };
 
   const renderLatex = (text) => {
+    // Check if text is a valid string
+    if (typeof text !== 'string') {
+      console.error('Invalid content passed to renderLatex:', text);
+      return null; // Return null if the text is not a string
+    }
+    
     const parts = text.split(/(\$\$[\s\S]*?\$\$|\$[\s\S]*?\$)/);
     return parts.map((part, index) => {
       if (part.startsWith('$$') && part.endsWith('$$')) {
@@ -19,10 +25,11 @@ const CustomMarkdownParser = ({ content }) => {
       } else if (part.startsWith('$') && part.endsWith('$')) {
         return <InlineMath key={index} math={part.slice(1, -1)} />;
       } else {
-        return part; // Render regular text
+        return part;
       }
     });
   };
+  
 
   const renderContent = (content) => {
     if (!content) return <p>No content available.</p>;
