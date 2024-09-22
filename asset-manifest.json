@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AcademicPage/static/css/main.e7a14514.css",
-    "main.js": "/AcademicPage/static/js/main.c626e0dc.js",
+    "main.js": "/AcademicPage/static/js/main.c181cb1c.js",
     "static/js/453.1355c77e.chunk.js": "/AcademicPage/static/js/453.1355c77e.chunk.js",
     "static/media/KaTeX_AMS-Regular.ttf": "/AcademicPage/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/KaTeX_Main-Regular.ttf": "/AcademicPage/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
@@ -66,13 +66,12 @@
     "static/media/01-overview.md": "/AcademicPage/static/media/01-overview.63a240b2e37a775c797f.md",
     "index.html": "/AcademicPage/index.html",
     "static/media/02-basic-concepts.md": "/AcademicPage/static/media/02-basic-concepts.bccd800646fca969005d.md",
-    "static/media/chapter1.md": "/AcademicPage/static/media/chapter1.a715751bdaad44f93aea.md",
     "main.e7a14514.css.map": "/AcademicPage/static/css/main.e7a14514.css.map",
-    "main.c626e0dc.js.map": "/AcademicPage/static/js/main.c626e0dc.js.map",
+    "main.c181cb1c.js.map": "/AcademicPage/static/js/main.c181cb1c.js.map",
     "453.1355c77e.chunk.js.map": "/AcademicPage/static/js/453.1355c77e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e7a14514.css",
-    "static/js/main.c626e0dc.js"
+    "static/js/main.c181cb1c.js"
   ]
 }
