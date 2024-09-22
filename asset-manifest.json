@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AcademicPage/static/css/main.e7a14514.css",
-    "main.js": "/AcademicPage/static/js/main.dcdbb13c.js",
+    "main.js": "/AcademicPage/static/js/main.29bc0079.js",
     "static/js/453.1355c77e.chunk.js": "/AcademicPage/static/js/453.1355c77e.chunk.js",
     "static/media/KaTeX_AMS-Regular.ttf": "/AcademicPage/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/KaTeX_Main-Regular.ttf": "/AcademicPage/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
@@ -76,11 +76,11 @@
     "static/media/02-solution-methods.md": "/AcademicPage/static/media/02-solution-methods.217ab27cfd0f4b3696a1.md",
     "static/media/chapter1.md": "/AcademicPage/static/media/chapter1.a715751bdaad44f93aea.md",
     "main.e7a14514.css.map": "/AcademicPage/static/css/main.e7a14514.css.map",
-    "main.dcdbb13c.js.map": "/AcademicPage/static/js/main.dcdbb13c.js.map",
+    "main.29bc0079.js.map": "/AcademicPage/static/js/main.29bc0079.js.map",
     "453.1355c77e.chunk.js.map": "/AcademicPage/static/js/453.1355c77e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e7a14514.css",
-    "static/js/main.dcdbb13c.js"
+    "static/js/main.29bc0079.js"
   ]
 }
