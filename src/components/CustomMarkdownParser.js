@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import ReactMarkdown from 'react-markdown';
 import 'katex/dist/katex.min.css';
 import { InlineMath, BlockMath } from 'react-katex';
 import { ChevronDown, ChevronRight } from 'lucide-react';
@@ -11,8 +12,6 @@ const CustomMarkdownParser = ({ content }) => {
   };
 
   const renderLatex = (text) => {
-    if (typeof text !== 'string') return null;
-    
     const parts = text.split(/(\$\$[\s\S]*?\$\$|\$[\s\S]*?\$)/);
     return parts.map((part, index) => {
       if (part.startsWith('$$') && part.endsWith('$$')) {
@@ -20,7 +19,7 @@ const CustomMarkdownParser = ({ content }) => {
       } else if (part.startsWith('$') && part.endsWith('$')) {
         return <InlineMath key={index} math={part.slice(1, -1)} />;
       } else {
-        return part;
+        return part; // Render regular text
       }
     });
   };
@@ -30,11 +29,25 @@ const CustomMarkdownParser = ({ content }) => {
 
     const answerRegex = /<answer>([\s\S]*?)<\/answer>/g;
     const parts = content.split(answerRegex);
-    
+
     return parts.map((part, index) => {
       if (index % 2 === 0) {
         // Regular content
-        return <div key={`content-${index}`}>{renderLatex(part)}</div>;
+        return (
+          <div key={`content-${index}`}>
+            <ReactMarkdown
+              components={{
+                h1: ({ children }) => <h1>{renderLatex(children)}</h1>,
+                h2: ({ children }) => <h2>{renderLatex(children)}</h2>,
+                h3: ({ children }) => <h3>{renderLatex(children)}</h3>,
+                p: ({ children }) => <p>{renderLatex(children)}</p>,
+                // You can add more markdown elements here as needed
+              }}
+            >
+              {part}
+            </ReactMarkdown>
+          </div>
+        );
       } else {
         // Answer content
         const answerId = `answer-${Math.floor(index / 2)}`;
@@ -64,7 +77,9 @@ const CustomMarkdownParser = ({ content }) => {
             </button>
             {expandedAnswers[answerId] && (
               <div style={{ marginTop: '0.5rem', paddingLeft: '1.5rem' }}>
-                {renderLatex(part)}
+                <ReactMarkdown>
+                  {part}
+                </ReactMarkdown>
               </div>
             )}
           </div>
