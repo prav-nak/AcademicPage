@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  display: flex; /* Ensure flexbox is applied to the main app */
+  height: 100vh; /* Full height of the viewport */
+}
+
+nav {
+  width: 250px; /* Fixed width for navigation */
+  background-color: white; /* Background color */
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  overflow-y: auto; /* Enable scrolling for long content */
+}
+
+main {
+  flex: 1; /* Takes the remaining space */
+  padding: 20px;
+  background-color: #f5f5f5; /* Optional background color for the main area */
+  display: flex; /* Ensure flexbox is applied */
+  flex-direction: column; /* Column layout for the main content */
+  justify-content: flex-start; /* Align items to the start */
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
