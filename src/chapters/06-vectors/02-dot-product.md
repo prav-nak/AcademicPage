@@ -25,7 +25,7 @@ Likewise, the components of the vector $\mathbf{b}$ are
 \begin{align}
 &b_x = 1, b_y = 2, b_z = -1
 \end{align}
-Thus, using Eq. \@ref(eq:DotProduct) the dot product amounts to
+Thus, using Eq. \ref{eq:DotProduct} the dot product amounts to
 \begin{align}
 \mathbf{a}\cdot\mathbf{b} = (2) \, (1) + (-1) \, (2) + (0)\, (-1) = 2 - 2 + 0 = 0
 \end{align}
@@ -48,7 +48,7 @@ However, the components of $\mathbf{b}$ differ from the previous example and are
 \begin{align}
 &b_x = 1, b_y = 1, b_z = -1
 \end{align}
-Using the definition Eq. \@ref(eq:DotProduct) the dot product is
+Using the definition Eq. \ref{eq:DotProduct} the dot product is
 \begin{align}
 \mathbf{a}\cdot\mathbf{b} = (2) \, (1) + (-1) \, (1) + (0)\, (-1) = 2 - 1 + 0 = 1
 \end{align}
@@ -68,7 +68,7 @@ Find $\mathbf{a} \cdot \mathbf{b}$.
 &a_x = -1, a_y = 0, a_z = 0 \\
 &b_x = 1, b_y = 1, b_z = 1
 \end{align}
-Again using the definition Eq. \@ref(eq:DotProduct) the dot product is
+Again using the definition Eq. \ref{eq:DotProduct} the dot product is
 \begin{align}
 \mathbf{a}\cdot\mathbf{b} = (-1) \, (1) + (0) \, (1) + (0)\, (1) = -1 + 0 + 0 = -1
 \end{align}
