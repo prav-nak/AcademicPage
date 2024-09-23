@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/AcademicPage/static/css/main.e7a14514.css",
-    "main.js": "/AcademicPage/static/js/main.05f12886.js",
+    "main.css": "/AcademicPage/static/css/main.a81b274e.css",
+    "main.js": "/AcademicPage/static/js/main.f6093277.js",
     "static/js/453.1355c77e.chunk.js": "/AcademicPage/static/js/453.1355c77e.chunk.js",
     "static/media/KaTeX_AMS-Regular.ttf": "/AcademicPage/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/KaTeX_Main-Regular.ttf": "/AcademicPage/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
@@ -63,12 +63,13 @@
     "static/media/KaTeX_Size4-Regular.woff2": "/AcademicPage/static/media/KaTeX_Size4-Regular.e418bf257af1052628d8.woff2",
     "static/media/KaTeX_Size3-Regular.woff": "/AcademicPage/static/media/KaTeX_Size3-Regular.7947224e8a9914fa332b.woff",
     "static/media/KaTeX_Size3-Regular.woff2": "/AcademicPage/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
-    "static/media/02-dot-product.md": "/AcademicPage/static/media/02-dot-product.4979e0006ae55567e4ae.md",
+    "static/media/02-dot-product.md": "/AcademicPage/static/media/02-dot-product.8e89b7feb978831a1787.md",
+    "index.html": "/AcademicPage/index.html",
+    "static/media/01-vector-algebra.md": "/AcademicPage/static/media/01-vector-algebra.a2b1e97bafeba4dbb1ec.md",
     "static/media/02-overview.md": "/AcademicPage/static/media/02-overview.cda66fccaffab0097ff1.md",
     "static/media/01-introduction.md": "/AcademicPage/static/media/01-introduction.4aadc7f8942a90b4e41c.md",
     "static/media/01-basic-concepts.md": "/AcademicPage/static/media/01-basic-concepts.8569dc124b06b66772d7.md",
     "static/media/02-importance.md": "/AcademicPage/static/media/02-importance.6915d4590476f9689c8d.md",
-    "index.html": "/AcademicPage/index.html",
     "static/media/02-financial-applications.md": "/AcademicPage/static/media/02-financial-applications.420fe96dc552a832e81d.md",
     "static/media/01-applications.md": "/AcademicPage/static/media/01-applications.aed6f80113a736f18ef5.md",
     "static/media/01-first-order.md": "/AcademicPage/static/media/01-first-order.7d683331bc03bbda5628.md",
@@ -76,13 +77,12 @@
     "static/media/02-applications.md": "/AcademicPage/static/media/02-applications.ca90ae36dff035c202ef.md",
     "static/media/02-solution-methods.md": "/AcademicPage/static/media/02-solution-methods.217ab27cfd0f4b3696a1.md",
     "static/media/chapter1.md": "/AcademicPage/static/media/chapter1.a715751bdaad44f93aea.md",
-    "static/media/01-vector-algebra.md": "/AcademicPage/static/media/01-vector-algebra.cd295a0829f4416d7767.md",
-    "main.e7a14514.css.map": "/AcademicPage/static/css/main.e7a14514.css.map",
-    "main.05f12886.js.map": "/AcademicPage/static/js/main.05f12886.js.map",
+    "main.a81b274e.css.map": "/AcademicPage/static/css/main.a81b274e.css.map",
+    "main.f6093277.js.map": "/AcademicPage/static/js/main.f6093277.js.map",
     "453.1355c77e.chunk.js.map": "/AcademicPage/static/js/453.1355c77e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7a14514.css",
-    "static/js/main.05f12886.js"
+    "static/css/main.a81b274e.css",
+    "static/js/main.f6093277.js"
   ]
 }
