@@ -1,6 +1,7 @@
 # Dot product
 
 ```{definition}
+**Example 1**
 Given two vectors $\mathbf{a}$ and $\mathbf{b}$, the dot product between them, denoted by $\mathbf{a} \cdot \mathbf{b}$, is defined as follows:
 \begin{align}
   \mathbf{a} \cdot \mathbf{b} = a_x \, b_x + a_y \, b_y + a_z \, b_z 
