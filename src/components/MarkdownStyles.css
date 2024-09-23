@@ -1,0 +1,30 @@
+/* MarkdownStyles.css */
+
+.definition {
+    border-left: 3px solid #007bff;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f1f9ff;
+  }
+  
+  .theorem {
+    border-left: 3px solid #28a745;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f4fce8;
+  }
+  
+  .example {
+    border-left: 3px solid #ffc107;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff8e1;
+  }
+  
+  .exercise {
+    border-left: 3px solid #dc3545;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f8d7da;
+  }
+  

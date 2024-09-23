@@ -24,6 +24,30 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <script>
+      window.MathJax = {
+        tex: {
+          tags: 'ams', // For automatic numbering
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']],
+          processEscapes: true,
+          processEnvironments: true,
+        },
+        options: {
+          renderActions: {
+            find_script: [10, function (doc) {
+              for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+                const math = new doc.options.MathML.Parse(node.textContent, doc.options);
+                doc.options.MathML.set(math);
+              }
+            }]
+          }
+        }
+      };
+    </script>
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
     <title>React App</title>
   </head>
   <body>

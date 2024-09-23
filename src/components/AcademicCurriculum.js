@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { getChapters } from './markdownLoader';
-import CustomMarkdownParser from './CustomMarkdownParser';
+//import CustomMarkdownParser from './CustomMarkdownParser';
+
+import MarkdownContent from './MarkdownContent'; // Adjust the path as needed
+
 import 'katex/dist/katex.min.css';
 
 const AcademicCurriculum = () => {
@@ -167,7 +170,7 @@ const AcademicCurriculum = () => {
             <h1 style={{ fontSize: '1.875rem', fontWeight: 'bold', marginBottom: '1rem' }}>{currentChapter?.title}</h1>
             {/* Remove the section title display here */}
             <div style={{ fontSize: '1rem', lineHeight: '1.5' }}>
-              <CustomMarkdownParser content={currentSection.content} />
+              <MarkdownContent content={currentSection.content} />
             </div>
           </>
         ) : (
