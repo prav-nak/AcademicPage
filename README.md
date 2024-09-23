@@ -1,5 +1,7 @@
 ```git add .```
+
 ```git commit -m "message"```
+
 ```git push```
 
 # Getting Started with Create React App
