@@ -1,17 +1,17 @@
-# Introduction to Partial Differential Equations
+# Math Pill for Undergraduate Students
+### The Theoretical Minimum
 
-Partial Differential Equations (PDEs) are equations that involve partial derivatives of a function of multiple independent variables. They are crucial for modeling various physical phenomena.
+**Professor Kalyana B. Nakshatrala**\
+Department of Civil and Environmental Engineering\
+University of Houston, Houston, Texas 77204.\
+Website: <https://sites.google.com/view/caml-kbn>\
+Email: <k.b.nakshatrala@gmail.com>
 
-## Importance of PDEs
+> "*People who wish to analyze nature without using mathematics must settle for a reduced understanding*." -- Richard Feynman
 
-PDEs are essential in fields such as physics, engineering, and finance. They help describe processes like heat conduction, fluid flow, and wave propagation.
-
-## Real-World Applications
-
-- **Heat Conduction**: Analyzing temperature distribution over time.
-- **Fluid Dynamics**: Understanding how fluids behave under various conditions.
-- **Quantum Mechanics**: Describing wave functions and probabilities.
-
-## Overview of Chapters
-
-This curriculum will cover fundamental concepts, methods for solving PDEs, and their applications across various fields.
+# Notice
+This set of notes is built based on the lectures given by Dr. Kalyana B. Nakshatrala 
+in undergraduate courses. The main intention of this set of notes is to quickly equip 
+the students with the necessary mathematical preliminaries so that they can enjoy the 
+beautiful journey while taking mechanics courses: Mechanics I - Statics, 
+and Mechanics of Solids. These lessons are dedicated to students.
