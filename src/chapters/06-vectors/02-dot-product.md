@@ -1,7 +1,7 @@
 # Dot product
 
 ```{definition}
-**Definition 1**
+**Definition 1.**
 Given two vectors $\mathbf{a}$ and $\mathbf{b}$, the dot product between them, denoted by $\mathbf{a} \cdot \mathbf{b}$, is defined as follows:
 \begin{align}
   \mathbf{a} \cdot \mathbf{b} = a_x \, b_x + a_y \, b_y + a_z \, b_z 
@@ -12,11 +12,12 @@ Given two vectors $\mathbf{a}$ and $\mathbf{b}$, the dot product between them, d
 First notice that the dot between two vectors is a scalar. We will now do several examples to master how to calculate the dot product. 
 
 ```{example}
+**Example 1.**
 Find the dot product between the following two vectors:
-  \begin{align}
+  \begin{aligned}
 \mathbf{a} &= 2 \, \widehat{\mathbf{i}} - \widehat{\mathbf{j}} \\  
 \mathbf{b} &= \widehat{\mathbf{i}} + 2 \, \widehat{\mathbf{j}} - \widehat{\mathbf{k}}
-\end{align}
+\end{aligned}
 
 **Solution.** In this example, the components of the vector $\mathbf{a}$ are
 \begin{align}
