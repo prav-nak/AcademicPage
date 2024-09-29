@@ -4,20 +4,20 @@
 **Definition 1.**
 Given two vectors $\mathbf{a}$ and $\mathbf{b}$, the dot product between them, denoted by $\mathbf{a} \cdot \mathbf{b}$, is defined as follows:
 \begin{align}
-  \mathbf{a} \cdot \mathbf{b} = a_x \, b_x + a_y \, b_y + a_z \, b_z 
+  \mathbf{a} \cdot \mathbf{b} = a_x \\, b_x + a_y \\, b_y + a_z \\, b_z 
   \label{eq:DotProduct}
 \end{align}
 ```
 
-First notice that the dot between two vectors is a scalar. We will now do several examples to master how to calculate the dot product. 
+First notice that the dot between two vectors is a scalar. This is the reason why dot product is also referred to as the **scalar product**. We will now do several examples to master how to calculate the dot product. 
 
 ```{example}
 **Example 1.**
 Find the dot product between the following two vectors:
-  \begin{aligned}
-\mathbf{a} &= 2 \, \widehat{\mathbf{i}} - \widehat{\mathbf{j}} \\  
-\mathbf{b} &= \widehat{\mathbf{i}} + 2 \, \widehat{\mathbf{j}} - \widehat{\mathbf{k}}
-\end{aligned}
+  \begin{align}
+\mathbf{a} &= 2 \\, \widehat{\mathbf{i}} - \widehat{\mathbf{j}} \\\  
+\mathbf{b} &= \widehat{\mathbf{i}} + 2 \\, \widehat{\mathbf{j}} - \widehat{\mathbf{k}}
+\end{align}
 
 **Solution.** In this example, the components of the vector $\mathbf{a}$ are
 \begin{align}
@@ -29,16 +29,17 @@ Likewise, the components of the vector $\mathbf{b}$ are
 \end{align}
 Thus, using Eq. \ref{eq:DotProduct} the dot product amounts to
 \begin{align}
-\mathbf{a}\cdot\mathbf{b} = (2) \, (1) + (-1) \, (2) + (0)\, (-1) = 2 - 2 + 0 = 0
+\mathbf{a}\cdot\mathbf{b} = (2) \\, (1) + (-1) \\, (2) + (0) \\, (-1) = 2 - 2 + 0 = 0
 \end{align}
 ```
 
 In the above example, it so happened that the dot product is zero. However, in general, a dot product can be zero, positive, or negative. The next two examples illustrate the possibility of the latter two cases. 
 
 ```{example}
+**Example 2.**
 Find the dot product between the following two vectors:
   \begin{align}
-\mathbf{a} &= 2 \, \widehat{\mathbf{i}} - \widehat{\mathbf{j}} \\  
+\mathbf{a} &= 2 \, \widehat{\mathbf{i}} - \widehat{\mathbf{j}} \\\ 
 \mathbf{b} &= \widehat{\mathbf{i}} + \widehat{\mathbf{j}} - \widehat{\mathbf{k}}
 \end{align}
 
@@ -52,15 +53,16 @@ However, the components of $\mathbf{b}$ differ from the previous example and are
 \end{align}
 Using the definition Eq. \ref{eq:DotProduct} the dot product is
 \begin{align}
-\mathbf{a}\cdot\mathbf{b} = (2) \, (1) + (-1) \, (1) + (0)\, (-1) = 2 - 1 + 0 = 1
+\mathbf{a}\cdot\mathbf{b} = (2) \\, (1) + (-1) \\, (1) + (0) \\, (-1) = 2 - 1 + 0 = 1
 \end{align}
 which is a positive number.
 ```
 
 ```{example}
+**Example 3.**
 This example illustrates that a dot product can be negative. Consider the following two vectors:
   \begin{align}
-\mathbf{a} &= -\widehat{\mathbf{i}} \\  
+\mathbf{a} &= -\widehat{\mathbf{i}} \\\ 
 \mathbf{b} &= \widehat{\mathbf{i}} + \widehat{\mathbf{j}} + \widehat{\mathbf{k}}
 \end{align}
 Find $\mathbf{a} \cdot \mathbf{b}$. 
@@ -72,7 +74,7 @@ Find $\mathbf{a} \cdot \mathbf{b}$.
 \end{align}
 Again using the definition Eq. \ref{eq:DotProduct} the dot product is
 \begin{align}
-\mathbf{a}\cdot\mathbf{b} = (-1) \, (1) + (0) \, (1) + (0)\, (1) = -1 + 0 + 0 = -1
+\mathbf{a}\cdot\mathbf{b} = (-1) \\, (1) + (0) \\, (1) + (0) \\, (1) = -1 + 0 + 0 = -1
 \end{align}
 ```
 
