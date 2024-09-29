@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { getChapters } from './markdownLoader';
-//import CustomMarkdownParser from './CustomMarkdownParser';
-
 import MarkdownContent from './MarkdownContent'; // Adjust the path as needed
-
 import 'katex/dist/katex.min.css';
 
 const AcademicCurriculum = () => {
@@ -21,20 +18,29 @@ const AcademicCurriculum = () => {
         setLoading(true);
         const loadedChapters = await getChapters();
 
-        // Clean chapter and section titles
         const cleanedChapters = loadedChapters.map(chapter => ({
           ...chapter,
-          title: chapter.title.replace(/^0+/g, '').trim().replace(/\b\w/g, char => char.toUpperCase()), // Remove leading zero and capitalize
+          title: chapter.title.replace(/^0+/g, '').trim().replace(/\b\w/g, char => char.toUpperCase()),
           sections: chapter.sections.map(section => ({
             ...section,
-            title: section.title.replace(/^0+/g, '').trim().replace(/\b\w/g, char => char.toUpperCase()), // Remove leading zero and capitalize
-            content: section.content // Ensure we are just using the content for rendering
+            title: section.title.replace(/^0+/g, '').trim().replace(/\b\w/g, char => char.toUpperCase()),
+            content: section.content
           }))
         }));
 
         setChapters(cleanedChapters);
 
-        if (cleanedChapters.length > 0) {
+        const savedChapterId = localStorage.getItem('currentChapterId');
+        const savedSectionId = localStorage.getItem('currentSectionId');
+
+        if (savedChapterId) {
+          const chapter = cleanedChapters.find(ch => ch.id === savedChapterId);
+          setCurrentChapter(chapter);
+          if (chapter && savedSectionId) {
+            const section = chapter.sections.find(sec => sec.id === savedSectionId);
+            setCurrentSection(section);
+          }
+        } else if (cleanedChapters.length > 0) {
           setCurrentChapter(cleanedChapters[0]);
           if (cleanedChapters[0].sections.length > 0) {
             setCurrentSection(cleanedChapters[0].sections[0]);
@@ -51,6 +57,15 @@ const AcademicCurriculum = () => {
     loadChapters();
   }, []);
 
+  useEffect(() => {
+    if (currentChapter) {
+      localStorage.setItem('currentChapterId', currentChapter.id);
+    }
+    if (currentSection) {
+      localStorage.setItem('currentSectionId', currentSection.id);
+    }
+  }, [currentChapter, currentSection]);
+
   const handleSectionClick = (chapter, section) => {
     setCurrentChapter(chapter);
     setCurrentSection(section);
@@ -65,6 +80,24 @@ const AcademicCurriculum = () => {
       ...prev,
       [chapterId]: !prev[chapterId],
     }));
+  };
+
+  const navigateToPreviousChapter = () => {
+    const currentIndex = chapters.findIndex(ch => ch.id === currentChapter.id);
+    if (currentIndex > 0) {
+      const previousChapter = chapters[currentIndex - 1];
+      setCurrentChapter(previousChapter);
+      setCurrentSection(previousChapter.sections[0]); // Optionally set to the first section
+    }
+  };
+
+  const navigateToNextChapter = () => {
+    const currentIndex = chapters.findIndex(ch => ch.id === currentChapter.id);
+    if (currentIndex < chapters.length - 1) {
+      const nextChapter = chapters[currentIndex + 1];
+      setCurrentChapter(nextChapter);
+      setCurrentSection(nextChapter.sections[0]); // Optionally set to the first section
+    }
   };
 
   if (loading) return <div style={{ padding: '2rem' }}>Loading...</div>;
@@ -168,9 +201,24 @@ const AcademicCurriculum = () => {
         {currentSection ? (
           <>
             <h1 style={{ fontSize: '1.875rem', fontWeight: 'bold', marginBottom: '1rem' }}>{currentChapter?.title}</h1>
-            {/* Remove the section title display here */}
             <div style={{ fontSize: '1rem', lineHeight: '1.5' }}>
               <MarkdownContent content={currentSection.content} />
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '1rem' }}>
+              <button 
+                onClick={navigateToPreviousChapter}
+                disabled={!currentChapter || chapters.findIndex(ch => ch.id === currentChapter.id) === 0}
+                style={{ padding: '0.5rem 1rem', cursor: 'pointer', backgroundColor: '#4A5568', color: 'white', border: 'none', borderRadius: '5px' }}
+              >
+                Previous Chapter
+              </button>
+              <button 
+                onClick={navigateToNextChapter}
+                disabled={!currentChapter || chapters.findIndex(ch => ch.id === currentChapter.id) === chapters.length - 1}
+                style={{ padding: '0.5rem 1rem', cursor: 'pointer', backgroundColor: '#4A5568', color: 'white', border: 'none', borderRadius: '5px' }}
+              >
+                Next Chapter
+              </button>
             </div>
           </>
         ) : (
