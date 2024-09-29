@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
-
 body, html {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: 'Roboto', sans-serif; /* Use Roboto for a professional look */
+  font-family: 'Arial', sans-serif; /* Use a clean sans-serif font */
   background-color: #eef2f3; /* Light background for the whole app */
 }
 
@@ -28,10 +26,9 @@ nav.collapsed {
 
 nav .nav-header {
   padding: 15px;
-  font-size: 1.5rem; /* Slightly larger font for header */
-  font-weight: 700; /* Bold weight for header */
+  font-size: 1.25rem; /* Slightly larger font for header */
+  font-weight: bold;
   border-bottom: 1px solid #e2e8f0; /* Divider line */
-  color: #333; /* Darker text color */
 }
 
 nav ul {
@@ -44,8 +41,6 @@ nav li {
   padding: 15px;
   cursor: pointer;
   transition: background-color 0.2s; /* Smooth hover effect */
-  font-size: 1rem; /* Consistent font size */
-  font-weight: 500; /* Medium weight for menu items */
 }
 
 nav li:hover {
@@ -59,8 +54,6 @@ main {
   display: flex; /* Flexbox for main content */
   flex-direction: column; /* Column layout */
   justify-content: flex-start; /* Align items to the start */
-  font-size: 1rem; /* Base font size */
-  color: #333; /* Darker text color */
 }
 
 .toggle-button {
@@ -97,6 +90,10 @@ main {
   transition: all 0.3s; /* Smooth transition */
 }
 
+nav.collapsed {
+  width: 60px; /* Width when collapsed */
+}
+
 nav.collapsed .line:nth-child(2) {
   opacity: 0; /* Hide the middle line when collapsed */
 }
@@ -108,3 +105,4 @@ nav.collapsed .line:nth-child(1) {
 nav.collapsed .line:nth-child(3) {
   transform: rotate(-45deg); /* Rotate bottom line */
 }
+

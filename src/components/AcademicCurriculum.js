@@ -155,9 +155,12 @@ const AcademicCurriculum = () => {
                     display: 'flex',
                     justifyContent: 'space-between',
                     alignItems: 'center',
+                    whiteSpace: 'nowrap', // Ensure text doesn't wrap
+                    overflow: 'hidden',   // Hide overflow
+                    textOverflow: 'ellipsis', // Show ellipsis for long titles
                   }}
                 >
-                  <span style={{ flexGrow: 1, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: collapsed ? 'nowrap' : 'normal' }}>
+                  <span style={{ flexGrow: 1 }}>
                     {collapsed ? chapter.title.charAt(0) : chapter.title}
                   </span>
                   <span>{openSections[chapter.id] ? '▼' : '►'}</span>
@@ -177,9 +180,9 @@ const AcademicCurriculum = () => {
                           border: 'none',
                           cursor: 'pointer',
                           fontSize: '0.875rem',
-                          overflow: 'hidden',
-                          textOverflow: 'ellipsis',
-                          whiteSpace: collapsed ? 'nowrap' : 'normal',
+                          whiteSpace: 'nowrap',  // Ensure text doesn't wrap
+                          overflow: 'hidden',    // Hide overflow
+                          textOverflow: 'ellipsis', // Show ellipsis for long titles
                         }}
                       >
                         {collapsed ? section.title.charAt(0) : section.title}
@@ -208,14 +211,31 @@ const AcademicCurriculum = () => {
               <button 
                 onClick={navigateToPreviousChapter}
                 disabled={!currentChapter || chapters.findIndex(ch => ch.id === currentChapter.id) === 0}
-                style={{ padding: '0.5rem 1rem', cursor: 'pointer', backgroundColor: '#4A5568', color: 'white', border: 'none', borderRadius: '5px' }}
+                style={{
+                  padding: '0.5rem 1rem',
+                  cursor: !currentChapter || chapters.findIndex(ch => ch.id === currentChapter.id) === 0 ? 'not-allowed' : 'pointer',
+                  backgroundColor: '#4A5568',
+                  color: 'white',
+                  border: 'none',
+                  borderRadius: '5px',
+                  opacity: !currentChapter || chapters.findIndex(ch => ch.id === currentChapter.id) === 0 ? 0.5 : 1
+                }}
               >
                 Previous Chapter
               </button>
+
               <button 
                 onClick={navigateToNextChapter}
                 disabled={!currentChapter || chapters.findIndex(ch => ch.id === currentChapter.id) === chapters.length - 1}
-                style={{ padding: '0.5rem 1rem', cursor: 'pointer', backgroundColor: '#4A5568', color: 'white', border: 'none', borderRadius: '5px' }}
+                style={{
+                  padding: '0.5rem 1rem',
+                  cursor: !currentChapter || chapters.findIndex(ch => ch.id === currentChapter.id) === chapters.length - 1 ? 'not-allowed' : 'pointer',
+                  backgroundColor: '#4A5568',
+                  color: 'white',
+                  border: 'none',
+                  borderRadius: '5px',
+                  opacity: !currentChapter || chapters.findIndex(ch => ch.id === currentChapter.id) === chapters.length - 1 ? 0.5 : 1
+                }}
               >
                 Next Chapter
               </button>
