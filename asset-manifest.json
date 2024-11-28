@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AcademicPage/static/css/main.a81b274e.css",
-    "main.js": "/AcademicPage/static/js/main.458192d8.js",
+    "main.js": "/AcademicPage/static/js/main.5ec47545.js",
     "static/js/453.1355c77e.chunk.js": "/AcademicPage/static/js/453.1355c77e.chunk.js",
     "static/media/KaTeX_AMS-Regular.ttf": "/AcademicPage/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/KaTeX_Main-Regular.ttf": "/AcademicPage/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
@@ -62,8 +62,8 @@
     "static/media/KaTeX_Size2-Regular.woff2": "/AcademicPage/static/media/KaTeX_Size2-Regular.2960900c4f271311eb36.woff2",
     "static/media/KaTeX_Size4-Regular.woff2": "/AcademicPage/static/media/KaTeX_Size4-Regular.e418bf257af1052628d8.woff2",
     "static/media/KaTeX_Size3-Regular.woff": "/AcademicPage/static/media/KaTeX_Size3-Regular.7947224e8a9914fa332b.woff",
-    "static/media/02-dot-product.md": "/AcademicPage/static/media/02-dot-product.937ab02d2602a1865229.md",
     "static/media/KaTeX_Size3-Regular.woff2": "/AcademicPage/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
+    "static/media/02-dot-product.md": "/AcademicPage/static/media/02-dot-product.7e918320f07e16088131.md",
     "index.html": "/AcademicPage/index.html",
     "static/media/01-vector-algebra.md": "/AcademicPage/static/media/01-vector-algebra.a2b1e97bafeba4dbb1ec.md",
     "static/media/01-overview.md": "/AcademicPage/static/media/01-overview.cda66fccaffab0097ff1.md",
@@ -79,11 +79,11 @@
     "static/media/02-solution-methods.md": "/AcademicPage/static/media/02-solution-methods.217ab27cfd0f4b3696a1.md",
     "static/media/chapter1.md": "/AcademicPage/static/media/chapter1.a715751bdaad44f93aea.md",
     "main.a81b274e.css.map": "/AcademicPage/static/css/main.a81b274e.css.map",
-    "main.458192d8.js.map": "/AcademicPage/static/js/main.458192d8.js.map",
+    "main.5ec47545.js.map": "/AcademicPage/static/js/main.5ec47545.js.map",
     "453.1355c77e.chunk.js.map": "/AcademicPage/static/js/453.1355c77e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a81b274e.css",
-    "static/js/main.458192d8.js"
+    "static/js/main.5ec47545.js"
   ]
 }
