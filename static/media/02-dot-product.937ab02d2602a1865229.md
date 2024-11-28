@@ -78,6 +78,26 @@ Again using the definition Eq. \ref{eq:DotProduct} the dot product is
 \end{align}
 ```
 
+```{example}
+**Example 4.**
+This example illustrates that a dot product can be negative. Consider the following two vectors:
+  \begin{align}
+\mathbf{a} &= -\widehat{\mathbf{i}} \\\ 
+\mathbf{b} &= \widehat{\mathbf{i}} + \widehat{\mathbf{j}} + \widehat{\mathbf{k}}
+\end{align}
+Find $\mathbf{a} \cdot \mathbf{b}$. 
+
+**Solution.** The components of the vectors $\mathbf{a}$ and $\mathbf{b}$ are
+\begin{align}
+&a_x = -1, a_y = 0, a_z = 0 \\
+&b_x = 1, b_y = 1, b_z = 1
+\end{align}
+Again using the definition Eq. \ref{eq:DotProduct} the dot product is
+\begin{align}
+\mathbf{a}\cdot\mathbf{b} = (-1) \\, (1) + (0) \\, (1) + (0) \\, (1) = -1 + 0 + 0 = -1
+\end{align}
+```
+
 ## Properties of dot products
 
 ```{exercise}
@@ -91,5 +111,3 @@ Using the following two vectors, verify that the dot product is symmmetric (i.e.
 ```{exercise}
 Is the following math operation valid: $\mathbf{a} \cdot b \cdot c$.
 ```
-
-
