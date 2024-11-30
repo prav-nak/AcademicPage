@@ -1,4 +1,4 @@
-# Dot product
+# Some common types of vectors 
 
 ```{definition}
 **Definition 1.**
