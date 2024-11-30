@@ -2,14 +2,16 @@
 
 ```{definition}
 **Definition 1.**
-Given two vectors $\mathbf{a}$ and $\mathbf{b}$, the dot product between them, denoted by $\mathbf{a} \cdot \mathbf{b}$, is defined as follows:
+The sum of two $\mathbf{a}$ and $\mathbf{b}$, denoted by $\mathbf{a} + \mathbf{b}$, is defined as follows:
 \begin{align}
-  \mathbf{a} \cdot \mathbf{b} = a_x \\, b_x + a_y \\, b_y + a_z \\, b_z 
-  \label{eq:DotProduct}
+  \mathbf{a} + \mathbf{b} = (a_x + b_x) \\, \widehat{\mathbf{i}} 
+  + (a_y + b_y) \\, \widehat{\mathbf{j}} 
+  + (a_z + b_z) \\, \widehat{\mathbf{k}} 
+  \label{eq:Sum_of_two_vectors}
 \end{align}
 ```
 
-First notice that the dot between two vectors is a scalar. This is the reason why dot product is also referred to as the **scalar product**. We will now do several examples to master how to calculate the dot product. 
+The summation of two vectors is a vector. It is now to practice the summation of two vectors using several examples. 
 
 ```{example}
 **Example 1.**
@@ -27,9 +29,9 @@ Likewise, the components of the vector $\mathbf{b}$ are
 \begin{align}
 &b_x = 1, b_y = 2, b_z = -1
 \end{align}
-Thus, using Eq. \ref{eq:DotProduct} the summation amounts to
+Thus, using Eq. \ref{eq:Sum_of_two_vectors} the summation amounts to
 \begin{align}
-\mathbf{a}\cdot\mathbf{b} = (2 + 1) \\, \widehat{\mathbf{i}} + (-1 + 2) \\, \widehat{\mathbf{j}} + (0 -1) \\, \widehat{\mathbf{k}} 
+\mathbf{a} + \mathbf{b} = (2 + 1) \\, \widehat{\mathbf{i}} + (-1 + 2) \\, \widehat{\mathbf{j}} + (0 -1) \\, \widehat{\mathbf{k}} 
 = 3 \\, \widehat{\mathbf{i}} + \widehat{\mathbf{j}} - \widehat{\mathbf{k}} 
 \end{align}
 ```
