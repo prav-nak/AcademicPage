@@ -1,6 +1,5 @@
-# Basic algebra: Addition and subtraction 
+# Dot product (Scalar product)
 
-## Addition of vectors 
 ```{definition}
 **Definition 1.**
 Given two vectors $\mathbf{a}$ and $\mathbf{b}$, the dot product between them, denoted by $\mathbf{a} \cdot \mathbf{b}$, is defined as follows:
@@ -36,7 +35,6 @@ Thus, using Eq. \ref{eq:DotProduct} the dot product amounts to
 
 In the above example, it so happened that the dot product is zero. However, in general, a dot product can be zero, positive, or negative. The next two examples illustrate the possibility of the latter two cases. 
 
-## Subtraction of vectors 
 ```{example}
 **Example 2.**
 Find the dot product between the following two vectors:
@@ -86,6 +84,10 @@ The dot product is symmetric. Put it differently, dot product satisfies commutat
 \begin{align}
 \mathbf{a} \cdot \mathbf{b} = \mathbf{b} \cdot \mathbf{a}
 \end{align}
+
+## Utility: Find angles between two vectors 
+
+## Practice problems 
 
 ```{exercise}
 Using the following two vectors, verify that the dot product is symmmetric (i.e., commutative). 

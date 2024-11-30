@@ -1,4 +1,4 @@
-# Dot product (Scalar product)
+# Addition of vectors 
 
 ```{definition}
 **Definition 1.**
@@ -13,7 +13,7 @@ First notice that the dot between two vectors is a scalar. This is the reason wh
 
 ```{example}
 **Example 1.**
-Find the dot product between the following two vectors:
+Add the following two vectors: 
   \begin{align}
 \mathbf{a} &= 2 \\, \widehat{\mathbf{i}} - \widehat{\mathbf{j}} \\\  
 \mathbf{b} &= \widehat{\mathbf{i}} + 2 \\, \widehat{\mathbf{j}} - \widehat{\mathbf{k}}
@@ -27,14 +27,14 @@ Likewise, the components of the vector $\mathbf{b}$ are
 \begin{align}
 &b_x = 1, b_y = 2, b_z = -1
 \end{align}
-Thus, using Eq. \ref{eq:DotProduct} the dot product amounts to
+Thus, using Eq. \ref{eq:DotProduct} the summation amounts to
 \begin{align}
-\mathbf{a}\cdot\mathbf{b} = (2) \\, (1) + (-1) \\, (2) + (0) \\, (-1) = 2 - 2 + 0 = 0
+\mathbf{a}\cdot\mathbf{b} = (2 + 1) \\, \widehat{\mathbf{i}} + (-1 + 2) \\, \widehat{\mathbf{j}} + (0 -1) \\, \widehat{\mathbf{k}} 
+= 3 \\, \widehat{\mathbf{i}} + \widehat{\mathbf{j}} - \widehat{\mathbf{k}} 
 \end{align}
 ```
 
-In the above example, it so happened that the dot product is zero. However, in general, a dot product can be zero, positive, or negative. The next two examples illustrate the possibility of the latter two cases. 
-
+## 2. Subtraction of vectors 
 ```{example}
 **Example 2.**
 Find the dot product between the following two vectors:
