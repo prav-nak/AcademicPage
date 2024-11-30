@@ -1,4 +1,4 @@
-# Cross product
+# Dot product (Scalar product)
 
 ```{definition}
 **Definition 1.**

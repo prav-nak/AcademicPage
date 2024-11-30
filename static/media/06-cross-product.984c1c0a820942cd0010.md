@@ -1,4 +1,4 @@
-# Dot product
+# Cross product (Vector product)
 
 ```{definition}
 **Definition 1.**
