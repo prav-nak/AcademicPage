@@ -107,7 +107,3 @@ Using the following two vectors, verify that the dot product is symmmetric (i.e.
 \mathbf{b} &= \widehat{\mathbf{i}} + 2 \, \widehat{\mathbf{j}} - \widehat{\mathbf{k}}
 \end{align}
 ```
-
-```{exercise}
-Is the following math operation valid: $\mathbf{a} \cdot b \cdot c$.
-```
