@@ -63,11 +63,11 @@ which is a positive number.
 
 ### True or False questions 
 
-- [T/F] Can sum of two vector be a scalar number? 
+1. [T/F] Can sum of two vector be a scalar number? 
 
-- [T/F] Is addition of two vector commutative?
+2. [T/F] Does the summation of vectors satisfy commutative property?
 
-- [T/F] Is addition of two vector associative?
+- [T/F] Does the summation of vectors satisfy associative property?
 
 - [T/F] If the sum of two non-zero vectors is a zero vector, can we conclude that the two vectors are perpendicular to each other? 
 
