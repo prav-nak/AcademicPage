@@ -58,9 +58,11 @@ Using the definition Eq. \ref{eq:DotProduct} the dot product is
 \end{align}
 which is a positive number.
 ```
+---
 
 ## Demonstration of Learning
 
+<!-- True/False questions -->
 ```{exercise}
 
 ### True or False questions 
@@ -73,15 +75,17 @@ which is a positive number.
 
 4. [T/F] If the sum of two non-zero vectors is a zero vector, can we conclude that the two vectors are perpendicular to each other? 
 
-5. [T/F] The sum of two vectors with equal magnitudes always results in a vector with the same magnitude. 
+5. [T/F] Does the sum of two vectors with equal magnitudes always result in a vector with the same magnitude?
 
 ```
 
+<!-- Answers to True/False questions -->
 <answer>
 1. False, 2. True, 3. True, 4. False, 5. False 
 </answer>
 
-### Objective questions 
+<!-- Objective-type questions -->
+### Objective-type questions 
 
 1. What is a vector? 
 
