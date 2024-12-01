@@ -85,6 +85,10 @@ The dot product is symmetric. Put it differently, dot product satisfies commutat
 \mathbf{a} \cdot \mathbf{b} = \mathbf{b} \cdot \mathbf{a}
 \end{align}
 
+## Utility: Find angles between two vectors 
+
+## Practice problems 
+
 ```{exercise}
 Using the following two vectors, verify that the dot product is symmmetric (i.e., commutative). 
 \begin{align}
