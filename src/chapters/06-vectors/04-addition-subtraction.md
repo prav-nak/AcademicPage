@@ -7,7 +7,7 @@ The sum of two $\mathbf{a}$ and $\mathbf{b}$, denoted by $\mathbf{a} + \mathbf{b
   \mathbf{a} + \mathbf{b} = (a_x + b_x) \\, \widehat{\mathbf{i}} 
   + (a_y + b_y) \\, \widehat{\mathbf{j}} 
   + (a_z + b_z) \\, \widehat{\mathbf{k}} 
-  \label{eq:Sum_of_two_vectors}
+  \label{eq:SumVectors}
 \end{align}
 ```
 
@@ -29,7 +29,7 @@ Likewise, the components of the vector $\mathbf{b}$ are
 \begin{align}
 &b_x = 1, b_y = 2, b_z = -1
 \end{align}
-Thus, using Eq. \ref{eq:Sum_of_two_vectors} the summation amounts to
+Thus, using Eq. \ref{eq:SumVectors} the summation amounts to
 \begin{align}
 \mathbf{a} + \mathbf{b} = (2 + 1) \\, \widehat{\mathbf{i}} + (-1 + 2) \\, \widehat{\mathbf{j}} + (0 -1) \\, \widehat{\mathbf{k}} 
 = 3 \\, \widehat{\mathbf{i}} + \widehat{\mathbf{j}} - \widehat{\mathbf{k}} 
