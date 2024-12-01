@@ -60,6 +60,8 @@ which is a positive number.
 ```
 ---
 
+<hr style="border: 3px solid black;">
+
 ## Demonstration of Learning
 
 <!-- True/False questions -->
