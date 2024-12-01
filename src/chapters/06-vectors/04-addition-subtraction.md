@@ -59,32 +59,21 @@ Using the definition Eq. \ref{eq:DotProduct} the dot product is
 which is a positive number.
 ```
 
-```{example}
-**Example 3.**
-This example illustrates that a dot product can be negative. Consider the following two vectors:
-  \begin{align}
-\mathbf{a} &= -\widehat{\mathbf{i}} \\\ 
-\mathbf{b} &= \widehat{\mathbf{i}} + \widehat{\mathbf{j}} + \widehat{\mathbf{k}}
-\end{align}
-Find $\mathbf{a} \cdot \mathbf{b}$. 
+## Demonstration of learning 
 
-**Solution.** The components of the vectors $\mathbf{a}$ and $\mathbf{b}$ are
-\begin{align}
-&a_x = -1, a_y = 0, a_z = 0 \\
-&b_x = 1, b_y = 1, b_z = 1
-\end{align}
-Again using the definition Eq. \ref{eq:DotProduct} the dot product is
-\begin{align}
-\mathbf{a}\cdot\mathbf{b} = (-1) \\, (1) + (0) \\, (1) + (0) \\, (1) = -1 + 0 + 0 = -1
-\end{align}
-```
+### Objective questions 
 
-## Properties of dot products
+- What is a vector? 
 
-The dot product is symmetric. Put it differently, dot product satisfies commutative property. Mathematically, 
-\begin{align}
-\mathbf{a} \cdot \mathbf{b} = \mathbf{b} \cdot \mathbf{a}
-\end{align}
+- What is magnitude?
+
+- What is $i \\bullet j$? 
+
+### Short questions 
+
+### Critical thinking 
+
+- Are these two vectors perpendicular to each other: $i$ and $j$
 
 ```{exercise}
 Using the following two vectors, verify that the dot product is symmmetric (i.e., commutative). 
