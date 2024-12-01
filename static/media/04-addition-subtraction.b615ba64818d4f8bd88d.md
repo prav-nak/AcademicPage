@@ -61,14 +61,9 @@ which is a positive number.
 
 ---
 
-***
-
-___
-
 
 ## Demonstration of Learning
 
-<!-- True/False questions -->
 ```{exercise}
 
 ### True or False questions 
@@ -85,12 +80,10 @@ ___
 
 ```
 
-<!-- Answers to True/False questions -->
 <answer>
 1. False, 2. True, 3. True, 4. False, 5. False 
 </answer>
 
-<!-- Objective-type questions -->
 ### Objective-type questions 
 
 1. What is a vector? 
