@@ -59,6 +59,7 @@ Using the definition Eq. \ref{eq:DotProduct} the dot product is
 which is a positive number.
 ```
 
+```{exercise}
 ## Demonstration of Learning 
 
 ### True or False questions 
@@ -71,7 +72,11 @@ which is a positive number.
 
 **4.** [T/F] If the sum of two non-zero vectors is a zero vector, can we conclude that the two vectors are perpendicular to each other? 
 
-**5.** [T/F] Is it possible to use vector addition to check whether both vectors are perpendicular to each other?
+**5.** [T/F] The sum of two vectors with equal magnitudes always results in a vector with the same magnitude. 
+
+<answer>
+1. False, 2. True, 3. True, 4. False, 5. False 
+</answer>
 
 ### Objective questions 
 
@@ -84,6 +89,8 @@ which is a positive number.
 <answer>
 It models the dynamics of option pricing over time.
 </answer>
+
+```
 
 ### Short questions 
 
