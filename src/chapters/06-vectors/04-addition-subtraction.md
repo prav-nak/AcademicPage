@@ -58,9 +58,13 @@ Using the definition Eq. \ref{eq:DotProduct} the dot product is
 \end{align}
 which is a positive number.
 ```
+
 ---
 
-<hr style="border: 3px solid black;">
+***
+
+___
+
 
 ## Demonstration of Learning
 
