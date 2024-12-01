@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AcademicPage/static/css/main.a81b274e.css",
-    "main.js": "/AcademicPage/static/js/main.97a6ca8c.js",
+    "main.js": "/AcademicPage/static/js/main.d9b9fbff.js",
     "static/js/453.1355c77e.chunk.js": "/AcademicPage/static/js/453.1355c77e.chunk.js",
     "static/media/KaTeX_AMS-Regular.ttf": "/AcademicPage/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/KaTeX_Main-Regular.ttf": "/AcademicPage/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
@@ -68,7 +68,7 @@
     "static/media/03-vector-types.md": "/AcademicPage/static/media/03-vector-types.949a26752afe58fc5d50.md",
     "static/media/03-cross-product.md": "/AcademicPage/static/media/03-cross-product.7e918320f07e16088131.md",
     "static/media/02-magnitude-unity.md": "/AcademicPage/static/media/02-magnitude-unity.55887ab1c4c0c56bbd03.md",
-    "static/media/04-addition-subtraction.md": "/AcademicPage/static/media/04-addition-subtraction.71951ad138df9279baf6.md",
+    "static/media/04-addition-subtraction.md": "/AcademicPage/static/media/04-addition-subtraction.b884d37157505eda115d.md",
     "index.html": "/AcademicPage/index.html",
     "static/media/01-vector-algebra.md": "/AcademicPage/static/media/01-vector-algebra.a2b1e97bafeba4dbb1ec.md",
     "static/media/01-overview.md": "/AcademicPage/static/media/01-overview.cda66fccaffab0097ff1.md",
@@ -84,11 +84,11 @@
     "static/media/02-solution-methods.md": "/AcademicPage/static/media/02-solution-methods.217ab27cfd0f4b3696a1.md",
     "static/media/chapter1.md": "/AcademicPage/static/media/chapter1.a715751bdaad44f93aea.md",
     "main.a81b274e.css.map": "/AcademicPage/static/css/main.a81b274e.css.map",
-    "main.97a6ca8c.js.map": "/AcademicPage/static/js/main.97a6ca8c.js.map",
+    "main.d9b9fbff.js.map": "/AcademicPage/static/js/main.d9b9fbff.js.map",
     "453.1355c77e.chunk.js.map": "/AcademicPage/static/js/453.1355c77e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a81b274e.css",
-    "static/js/main.97a6ca8c.js"
+    "static/js/main.d9b9fbff.js"
   ]
 }
