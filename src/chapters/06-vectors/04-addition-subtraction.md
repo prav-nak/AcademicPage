@@ -63,15 +63,15 @@ which is a positive number.
 
 ### True or False questions 
 
-1. [T/F] Can sum of two vector be a scalar number? 
+**1.** [T/F] Can sum of two vector be a scalar number? 
 
-2. [T/F] Does the summation of vectors satisfy commutative property?
+**2.** [T/F] Does the summation of vectors satisfy commutative property?
 
-- [T/F] Does the summation of vectors satisfy associative property?
+**3.** [T/F] Does the summation of vectors satisfy associative property?
 
-- [T/F] If the sum of two non-zero vectors is a zero vector, can we conclude that the two vectors are perpendicular to each other? 
+**4.** [T/F] If the sum of two non-zero vectors is a zero vector, can we conclude that the two vectors are perpendicular to each other? 
 
-- [T/F] Is sum of two vector to check whether two vector are perpendicular? scommutative.
+**5.** [T/F] Is it possible to use vector addition to check whether both vectors are perpendicular to each other?
 
 ### Objective questions 
 
