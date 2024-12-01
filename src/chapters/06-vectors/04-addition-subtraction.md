@@ -102,11 +102,3 @@ It models the dynamics of option pricing over time.
 ### Critical thinking 
 
 - Are these two vectors perpendicular to each other: $i$ and $j$
-
-```{exercise}
-Using the following two vectors, verify that the dot product is symmmetric (i.e., commutative). 
-\begin{align}
-\mathbf{a} &= 2 \, \widehat{\mathbf{i}} - \widehat{\mathbf{j}} \\  
-\mathbf{b} &= \widehat{\mathbf{i}} + 2 \, \widehat{\mathbf{j}} - \widehat{\mathbf{k}}
-\end{align}
-```
