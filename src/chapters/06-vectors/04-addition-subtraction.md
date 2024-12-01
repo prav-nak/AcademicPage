@@ -61,13 +61,29 @@ which is a positive number.
 
 ## Demonstration of learning 
 
+### True or False questions 
+
+- [T/F] Can sum of two vector be a scalar number? 
+
+- [T/F] Is addition of two vector commutative?
+
+- [T/F] Is addition of two vector associative?
+
+- [T/F] If the sum of two non-zero vectors is a zero vector, can we conclude that the two vectors are perpendicular to each other? 
+
+- [T/F] Is sum of two vector to check whether two vector are perpendicular? scommutative.
+
 ### Objective questions 
 
-- What is a vector? 
+1. What is a vector? 
 
-- What is magnitude?
+2. What is magnitude?
 
-- What is $i \\bullet j$? 
+3. What is $i \bullet j$? 
+
+<answer>
+It models the dynamics of option pricing over time.
+</answer>
 
 ### Short questions 
 
