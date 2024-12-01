@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AcademicPage/static/css/main.a81b274e.css",
-    "main.js": "/AcademicPage/static/js/main.008a6775.js",
+    "main.js": "/AcademicPage/static/js/main.4594d47c.js",
     "static/js/453.1355c77e.chunk.js": "/AcademicPage/static/js/453.1355c77e.chunk.js",
     "static/media/KaTeX_AMS-Regular.ttf": "/AcademicPage/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/KaTeX_Main-Regular.ttf": "/AcademicPage/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
@@ -66,6 +66,7 @@
     "static/media/05-dot-product.md": "/AcademicPage/static/media/05-dot-product.74430b6fa4adbe14602a.md",
     "static/media/06-cross-product.md": "/AcademicPage/static/media/06-cross-product.984c1c0a820942cd0010.md",
     "static/media/03-vector-types.md": "/AcademicPage/static/media/03-vector-types.949a26752afe58fc5d50.md",
+    "static/media/03-cross-product.md": "/AcademicPage/static/media/03-cross-product.7e918320f07e16088131.md",
     "static/media/02-magnitude-unity.md": "/AcademicPage/static/media/02-magnitude-unity.55887ab1c4c0c56bbd03.md",
     "static/media/04-addition-subtraction.md": "/AcademicPage/static/media/04-addition-subtraction.e186587cede427a93a85.md",
     "index.html": "/AcademicPage/index.html",
@@ -83,11 +84,11 @@
     "static/media/02-solution-methods.md": "/AcademicPage/static/media/02-solution-methods.217ab27cfd0f4b3696a1.md",
     "static/media/chapter1.md": "/AcademicPage/static/media/chapter1.a715751bdaad44f93aea.md",
     "main.a81b274e.css.map": "/AcademicPage/static/css/main.a81b274e.css.map",
-    "main.008a6775.js.map": "/AcademicPage/static/js/main.008a6775.js.map",
+    "main.4594d47c.js.map": "/AcademicPage/static/js/main.4594d47c.js.map",
     "453.1355c77e.chunk.js.map": "/AcademicPage/static/js/453.1355c77e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a81b274e.css",
-    "static/js/main.008a6775.js"
+    "static/js/main.4594d47c.js"
   ]
 }
