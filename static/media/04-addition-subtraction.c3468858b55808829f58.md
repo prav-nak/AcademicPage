@@ -4,7 +4,7 @@
 **Definition 1.**
 The sum of two $\mathbf{a}$ and $\mathbf{b}$, denoted by $\mathbf{a} + \mathbf{b}$, is defined as follows:
 \begin{align}
-  \mathbf{a} + \mathbf{b} = (a_x + b_x) 
+  \mathbf{a} + \mathbf{b} = (a_x + b_x) \\, \widehat{\mathbf{i}} +  
   \label{eq:Sum_of_two_vectors}
 \end{align}
 ```
