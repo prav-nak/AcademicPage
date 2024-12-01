@@ -3,9 +3,15 @@
 ```{definition}
 **Definition 1.**
 The sum of two $\mathbf{a}$ and $\mathbf{b}$, denoted by $\mathbf{a} + \mathbf{b}$, is defined as follows:
+
+\begin{align}
+  \mathbf{a} + \mathbf{b} = (a_x + b_x) \\, \widehat{\mathbf{i}} + (a_y + b_y)
+  \label{eq:Sum_of_two_vectors}
+\end{align}
+
 \begin{align}
   \mathbf{a} + \mathbf{b} = (a_x + b_x) \\, \widehat{\mathbf{i}} + (a_y + b_y) \\, \widehat{\mathbf{j}} + (a_z + b_z) \\, \widehat{\mathbf{k}} 
-  \label{eq:Sum_of_two_vectors}
+  \label{eq:Sum_of_two_vectors_mod}
 \end{align}
 ```
 
