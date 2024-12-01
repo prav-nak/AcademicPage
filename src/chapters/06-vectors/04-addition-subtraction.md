@@ -59,20 +59,23 @@ Using the definition Eq. \ref{eq:DotProduct} the dot product is
 which is a positive number.
 ```
 
+## Demonstration of Learning
+
 ```{exercise}
-## Demonstration of Learning 
 
 ### True or False questions 
 
-**1.** [T/F] Can sum of two vector be a scalar number? 
+1. [T/F] Can sum of two vector be a scalar number? 
 
-**2.** [T/F] Does the summation of vectors satisfy commutative property?
+2. [T/F] Does the summation of vectors satisfy commutative property?
 
-**3.** [T/F] Does the summation of vectors satisfy associative property?
+3. [T/F] Does the summation of vectors satisfy associative property?
 
-**4.** [T/F] If the sum of two non-zero vectors is a zero vector, can we conclude that the two vectors are perpendicular to each other? 
+4. [T/F] If the sum of two non-zero vectors is a zero vector, can we conclude that the two vectors are perpendicular to each other? 
 
-**5.** [T/F] The sum of two vectors with equal magnitudes always results in a vector with the same magnitude. 
+5. [T/F] The sum of two vectors with equal magnitudes always results in a vector with the same magnitude. 
+
+```
 
 <answer>
 1. False, 2. True, 3. True, 4. False, 5. False 
@@ -90,7 +93,6 @@ which is a positive number.
 It models the dynamics of option pricing over time.
 </answer>
 
-```
 
 ### Short questions 
 
