@@ -59,7 +59,7 @@ Using the definition Eq. \ref{eq:DotProduct} the dot product is
 which is a positive number.
 ```
 
-## Demonstration of learning 
+## Demonstration of Learning 
 
 ### True or False questions 
 
